@@ -1,3 +1,39 @@
-marat:
-  email: marat@baichurin.com
+administrator:
+  email: admin@admin.com
   encrypted_password: A5646545**v
+  admin: true
+
+Red Star:
+  email: Star@gmail.com
+  encrypted_password: A5646545**v
+
+
+Captain The Unsanctionables:
+  email: Unsanctionables@gmail.com
+  encrypted_password: A5646545**v
+
+Captain The Galactics:
+  email: Galactics@gmail.com
+  encrypted_password: A5646545**v
+
+Captain Coalition:
+  email: Coalition@gmail.com
+  encrypted_password: A5646545**v
+
+Captain Cavalry:
+  email: Cavalry@gmail.com
+  encrypted_password: A5646545**v
+
+Captain Happy Sundays:
+  email: HappySundays@gmail.com
+  encrypted_password: A5646545**v
+
+Captain Freshmen:
+  email: Freshmen@gmail.com
+  encrypted_password: A5646545**v
+
+Captain Moscow Rebels:
+  email: MoscowRebels@gmail.com
+  encrypted_password: A5646545**v
+
+

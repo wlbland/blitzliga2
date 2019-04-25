@@ -19,6 +19,7 @@ gem 'devise'
 gem 'pundit'
 gem 'capybara'
 gem 'selenium-webdriver'
+gem 'activeadmin'
 
 
 group :development do
