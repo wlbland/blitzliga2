@@ -1,0 +1,30 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img src="https://www.blitzliga.club/assets/logo-e8db51d5021c1b845e9fd63f78c91cf32cc47a62c31d1a0ca8eb167897603506.png" height="30" class="d-inline-block align-top" alt="">
+    BlitzLiga
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse  navbar-right navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          League Tables
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Season 1</a>
+          <a class="dropdown-item" href="#">Season 2</a>
+        </div>
+      </li>
+      <li class="nav-item xxy">
+        <% if user_signed_in? %>
+          Add a player
+        <% else %>
+          <%= link_to t(".sign_in", default: "Sign In"), new_user_session_path, class: "nav-link" %>
+        <% end %>
+      </li>
+    </ul>
+  </div>
+</nav>
