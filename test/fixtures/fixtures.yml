@@ -1,0 +1,23 @@
+<% 28.times do |n|
+  case
+  when n/4 >=1
+    week = 1
+  when n/4 >=2
+    week = 2
+  when n/4 >=3
+    week = 3
+  when n/4 >=4
+    week = 4
+  when n/4 >=5
+    week = 5
+  when n/4 >=6
+    week = 6
+  else
+    week = 7
+  end %>
+
+fixture_<%= n %>:
+  season: 1
+  time: <%= "#{DateTime.now + (week*7).days}" %>
+<% end %>
+

@@ -1,0 +1,7 @@
+<% teams = ["Red Star", "The Unsanctionables", "The Galactics", "Coalition", "Cavalry", "Happy Sundays", "Red Star", "Moscow Rebels"]  %>
+
+<% 56.times do |n| %>
+team_fixture_<%= n %>:
+  fixture: fixture_<%= n/2 %>
+  team: <%= teams[n%8] %>
+<% end %>

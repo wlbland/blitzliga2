@@ -16,6 +16,8 @@ gem 'uglifier'
 gem 'webpacker'
 
 gem 'devise'
+gem 'capybara'
+gem 'selenium-webdriver'
 
 
 group :development do
