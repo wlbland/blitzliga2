@@ -17,4 +17,7 @@ class UserPolicy < ApplicationPolicy
     end
   end
 
+  def update
+    user.admin
+  end
 end

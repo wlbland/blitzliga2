@@ -1,5 +1,7 @@
 class Team < ApplicationRecord
 
+    has_one :user
+
     has_many :players, dependent: :destroy
     has_many :team_fixtures, dependent: :destroy
     has_many :goals, dependent: :destroy

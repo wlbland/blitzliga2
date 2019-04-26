@@ -7,3 +7,5 @@ end
 class ActionDispatch::IntegrationTest
   include SignInHelper
 end
+
+

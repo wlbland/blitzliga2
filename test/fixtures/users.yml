@@ -1,39 +1,46 @@
 administrator:
   email: admin@admin.com
-  encrypted_password: A5646545**v
+  encrypted_password: <%= Devise::Encryptor.digest(User, 'A5646545**v') %>
   admin: true
 
-Red Star:
+red_star:
   email: Star@gmail.com
-  encrypted_password: A5646545**v
-
+  encrypted_password: <%= Devise::Encryptor.digest(User, 'A5646545**v') %>
+  team: Red Star
 
 Captain The Unsanctionables:
   email: Unsanctionables@gmail.com
-  encrypted_password: A5646545**v
+  encrypted_password: <%= Devise::Encryptor.digest(User, 'A5646545**v') %>
+  team: The Unsanctionables
 
 Captain The Galactics:
   email: Galactics@gmail.com
-  encrypted_password: A5646545**v
+  encrypted_password: <%= Devise::Encryptor.digest(User, 'A5646545**v') %>
+  team: The Galactics
 
 Captain Coalition:
   email: Coalition@gmail.com
-  encrypted_password: A5646545**v
+  encrypted_password: <%= Devise::Encryptor.digest(User, 'A5646545**v') %>
+  team: Coalition
 
 Captain Cavalry:
   email: Cavalry@gmail.com
-  encrypted_password: A5646545**v
+  encrypted_password: <%= Devise::Encryptor.digest(User, 'A5646545**v') %>
+  team: Cavalry
 
 Captain Happy Sundays:
   email: HappySundays@gmail.com
-  encrypted_password: A5646545**v
+  encrypted_password: <%= Devise::Encryptor.digest(User, 'A5646545**v') %>
+  team: Happy Sundays
 
 Captain Freshmen:
   email: Freshmen@gmail.com
-  encrypted_password: A5646545**v
+  encrypted_password: <%= Devise::Encryptor.digest(User, 'A5646545**v') %>
+  team: Freshmen
 
 Captain Moscow Rebels:
   email: MoscowRebels@gmail.com
-  encrypted_password: A5646545**v
+  encrypted_password: <%= Devise::Encryptor.digest(User, 'A5646545**v') %>
+  team: Moscow Rebels
 
 
